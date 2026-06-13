@@ -1,0 +1,29 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw data
+data/*.csv
+data/*.parquet
+data/*.json
+data/*.xlsx
+
+# Outputs
+outputs/*
+!outputs/README.md
+
+# Logs
+*.log
+
+# Compressed files
+*.zip
+*.rar
+
+# OS files
+.DS_Store
+Thumbs.db
